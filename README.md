@@ -4,7 +4,7 @@ The eDNP/8331 consists of a microcontroller circuit based on an Arm Cortex-A7 So
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331-overview.jpg)
 
-**(1)** eDNP/8331 schematic snippet. This object can be included in an Altium Designer project. The other custom specfic circuit functions are wired to the respective snippets pins as required. Unused pins remain unconnected. For power, the eDNP/8331 requires only 3.3 VDC. An external clock and reset signal is not required.
+**(1)** eDNP/8331 schematic snippet. This object can be included in an Altium Designer project. The other custom specific circuit functions are wired to the respective snippets pins as required. Unused pins remain unconnected. For power, the eDNP/8331 requires only 3.3 VDC. An external clock and reset signal is not required.
 
 **(2)** Once the circuit is fully wired, the PCB layout for the entire circuit is generated in Altium Designer using the eDNP/8331 PCB snippet. As a result, CAD data for the entire board is available, from which an electronics manufacturing service (EMS) provider can produce the complete assembly.
 
@@ -47,7 +47,7 @@ For more information please see https://www.ssv-embedded.de/doks/daten/datasheet
 
 ## Evaluation Kit
 
-The (e)DNP/8331-EK (Evaluation Kit) is suitable as a embedded hardware platform for Python or C/C++ application development. It contains with the DNP/8331 the physical variant of the eDNP/8331 on a MB/941 carrier board. The scope of delivery includes a 110/230 VAC plug-in to 24 VDC power supply unit, an RS232 adapter cable and an Ethernet LAN cable. The RS232 adapter cable can be used to create a serial console to the U-Boot boot loader and Debian Linux operating system if required. The LAN cable is intended as a connection to the DNP/8331-EK user's PC.
+The (e)DNP/8331-EK (Evaluation Kit) is suitable as an embedded hardware platform for Python or C/C++ application development. It contains with the DNP/8331 the physical variant of the eDNP/8331 on a MB/941 carrier board. The scope of delivery includes a 110/230 VAC plug-in to 24 VDC power supply unit, an RS232 adapter cable and an Ethernet LAN cable. The RS232 adapter cable can be used to create a serial console to the U-Boot boot loader and Debian Linux operating system if required. The LAN cable is intended as a connection to the DNP/8331-EK user's PC.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.jpg)
 
