@@ -1,3 +1,8 @@
+# eDNP/8331: Altium Designer Development Workflow 
+
+There are essentially four steps required to integrate the eDNP/8331 into an embedded system solution using Altium Designer: **1.** Schematic, **2.** Layout, **3.** Bill of Materials (BoM) and production data, **4.** Prototyping 
+
+![Overview](https://ssv-comm.de/forum/bilder/8331_AWF_0.jpg)
 
 ## 1. Schematic
 
