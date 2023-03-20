@@ -38,10 +38,14 @@
 
 **(5)** 1x UART (RS232 interface with TXD, RXD, RTS, CTS).
 
-**(6)** 1x miniPCIe slot for wireless modules (e.g. 4G, LTE Cat M1 or NB-IoT modem).
+**(6)** 1x miniPCIe slot for wireless modem modules (e.g. 4G, LTE Cat M1 or NB-IoT modem).
 
 **(7)** 2x LED, one of them controllable by software, the other LED indicates the on-state.
 
 **(8)** 24 VDC power supply, 1x UART (RS485 interface).
 
-**(9)** Option: Wireless modem for miniPCIe slot **(6)**. 
+**(9)** Option: Wireless modem module for miniPCIe slot **(6)**. 
+
+(e)DNP/8331 Hardware Reference: https://www.ssv-embedded.de/doks/manuals/hr_dnp8331_en.pdf
+
+MB/941 Hardware Reference: https://www.ssv-embedded.de/doks/manuals/hr_mb941_en.pdf
