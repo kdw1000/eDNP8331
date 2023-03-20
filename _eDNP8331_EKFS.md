@@ -2,7 +2,7 @@
 
 ...
 
-![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.jpg)
+![Overview](https://ssv-comm.de/forum/bilder/8331EK-connect.png)
 
 ...
 
