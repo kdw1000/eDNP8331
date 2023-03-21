@@ -48,7 +48,7 @@ A Python 3 runtime is included in the Linux operating system of the eDNP/8331. I
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-VSC.png)
 
-Visual Studio Code can be extended relatively easily via plug-ins (VSC extensions). For example, it is possible to integrate one SSH and one SFTP client into VSC. This allows an SSH client session to the eDNP/8331-EK board in parallel to the code editor window (see terminal window in the figure). Furthermore, with one mouse click the SFTP file transfer of the Python code from the VSC editor window to the eDNP/8331 Linux file system is possible.
+Visual Studio Code can be extended relatively easily via plug-ins (VSC extensions). For example, it is possible to integrate one SSH and one SFTP client into VSC. This allows an SSH client session to the eDNP/8331-EK board in parallel to the code editor window (see terminal window in the figure above this text). Furthermore, with one mouse click the SFTP file transfer of the Python code from the VSC editor window to the eDNP/8331 Linux file system is possible.
 
 ## Connectors, Slots and Wireless Modem
 
