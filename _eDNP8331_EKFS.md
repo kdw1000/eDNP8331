@@ -26,9 +26,13 @@ After a successful login with username and password, any eDNP/8331 Debian Linux 
 
 ## SFTP Client Session
 
-In addition to a Linux Command Line Interface (CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides an SFTP server to transfer arbitrary directories and files from the PC to the Linux file system. To use this service, an SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
+In addition to a Linux Command Line Interface (Linux CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides an SFTP server to transfer arbitrary directories and files from the PC to the Linux file system. To use this service, an SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-SFTP.png)
+
+An SFTP client session also requires a login first. The two entries required for this can also be found on a label sticker on the back of the eDNP/8331-EK board.
+
+After establishing an SFTP connection with a successful login, directories and files can be transferred in both directions, i.e. from the PC to the eDNP/8331 Linux file system and vice versa.
 
 # SSV/WebUI Session
 
