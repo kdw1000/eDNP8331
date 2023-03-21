@@ -34,7 +34,7 @@ An SFTP client session also requires a login first. The two entries required for
 
 After establishing an SFTP connection with a successful login, directories and files can be transferred in both directions, i.e. from the PC to the eDNP/8331 Linux file system and vice versa.
 
-# SSV/WebUI Session
+## SSV/WebUI Session
 
 Another possibility for Ethernet LAN-based user access is provided by the SSV/WebUI and the eDNP/8331 embedded web server provided for this purpose at http://192.168.0.126:7777. This user interface can be accessed from any computer using a web browser.
 
@@ -44,9 +44,11 @@ Immediately after the first access, a login web page is displayed. Here, a user 
 
 ## Python "Hello World!"
 
-...
+A Python 3 runtime is included in the Linux operating system of the eDNP/8331. It is therefore recommended to use a PC workstation with Visual Studio Code (VSC or VC Code, see https://en.wikipedia.org/wiki/Visual_Studio_Code) as development computer, edit the Python source code files on the PC, transfer them via SFTP to the eDNP/8331 Linux file system and execute them there.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-VSC.png)
+
+Visual Studio Code can be extended relatively easily via plug-ins (VSC extensions). For example, it is possible to integrate one SSH and one SFTP client into VSC. This allows an SSH client session to the eDNP/8331-EK board in parallel to the code editor window (see terminal window in the figure). Furthermore, with one mouse click the SFTP file transfer of the Python code from the VSC editor window to the eDNP/8331 Linux file system is possible.
 
 ## Connectors, Slots and Wireless Modem
 
