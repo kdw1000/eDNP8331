@@ -12,7 +12,7 @@ Use of the serial console requires an RS232 interface connection between the eDN
 
 To request the eDNP/8331 Linux operating system to issue a login prompt in the terminal emulator window, the PC's Enter key must first pressed one time. Then you can log in with user name and password. The two entries required for this login can be found on a label sticker on the back of the eDNP/8331-EK board.
 
-After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line within the serial console session.
+After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line (Linux CLI) within the serial console session.
 
 ## SSH Client Session
 
@@ -22,13 +22,19 @@ An SSH client session also requires a login first. The two entries required for 
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-SSH.png)
 
-After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line within the SSH client session.
+After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line (Linux CLI) within the SSH client session.
 
 ## SFTP Client Session
 
-...
+In addition to a Linux Command Line Interface (CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides an SFTP server to transfer arbitrary directories and files from the PC to the Linux file system. To use this service, an SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-SFTP.png)
+
+# SSV/WebUI Session
+
+...
+
+![Overview](https://ssv-comm.de/forum/bilder/8331EK-WUI.png)
 
 ## Connectors, Slots and Wireless Modem
 
