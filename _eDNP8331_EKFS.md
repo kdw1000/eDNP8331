@@ -6,15 +6,23 @@
 
 ## Serial Console Session
 
-...
+Use of the serial console requires an RS232 interface connection between the eDNP/8331-EK board and the user's PC. The setup parameters **115,200 bps, 8N1** apply to this connection. Furthermore, terminal emulator software such as Tera Term or PuTTY is required on the PC (see also https://en.wikipedia.org/wiki/Tera_Term).
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-Serial.png)
 
+To request the eDNP/8331 Linux operating system to issue a login prompt in the terminal emulator window, the PC's Enter key must first pressed one time. Then you can log in with user name and password. The two entries required for this login can be found on a label sticker on the back of the eDNP/8331-EK board.
+
+After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line within the serial console session.
+
 ## SSH Client Session
 
-...
+Analogous to the serial console session, an SSH client session via Ethernet LAN is also possible using the factory default IP address **192.168.0.126** of the eDNP/8331-EK board. The integrated SSH client from Tera Term can be used for this purpose, for example.
+
+An SSH client session also requires a login first. The two entries required for this can also be found on a label sticker on the back of the eDNP/8331-EK board.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-SSH.png)
+
+After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line within the SSH client session.
 
 ## SFTP Client Session
 
