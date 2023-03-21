@@ -26,7 +26,7 @@ After a successful login with username and password, any eDNP/8331 Debian Linux 
 
 ## SFTP Client Session
 
-In addition to a Linux Command Line Interface (Linux CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides an SFTP server to transfer arbitrary directories and files from the PC to the Linux file system. To use this service, an SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
+In addition to a Linux Command Line Interface (Linux CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides an SFTP server to transfer arbitrary directories and files from the PC to the Linux file system via Ethernet LAN only using the factory default IP address **192.168.0.126**. To use this service, an SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-SFTP.png)
 
@@ -36,9 +36,11 @@ After establishing an SFTP connection with a successful login, directories and f
 
 # SSV/WebUI Session
 
-...
+Another possibility for Ethernet LAN-based user access is provided by the SSV/WebUI and the eDNP/8331 embedded web server provided for this purpose at http://192.168.0.126:7777. This user interface can be accessed from any computer using a web browser.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-WUI.png)
+
+Immediately after the first access, a login web page is displayed. Here, a user name plus password must first be entered in order to start an SSV/WebUI session. The two entries required for this can also be found on a label sticker on the back of the eDNP/8331-EK board.
 
 ## Connectors, Slots and Wireless Modem
 
