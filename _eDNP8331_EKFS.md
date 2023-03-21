@@ -1,8 +1,8 @@
-# eDNP/8331: First Steps with the eDNP/8331-EK 
+# eDNP/8331: First Steps with the Evaluation Kit (EK) 
 
 ...
 
-![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.png)
+![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.jpg)
 
 ## Serial Console Session
 
@@ -34,7 +34,7 @@ An SFTP client session also requires a login first. The two entries required for
 
 After establishing an SFTP connection with a successful login, directories and files can be transferred in both directions, i.e. from the PC to the eDNP/8331 Linux file system and vice versa.
 
-## SSV/WebUI Session
+## Webrowser Session (SSV/WebUI)
 
 Another possibility for Ethernet LAN-based user access is provided by the SSV/WebUI and the eDNP/8331 embedded web server provided for this purpose at http://192.168.0.126:7777. This user interface can be accessed from any computer using a web browser.
 
