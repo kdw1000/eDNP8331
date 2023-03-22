@@ -4,7 +4,7 @@
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.jpg)
 
-The commissioning of the eDNP/8331-EK is relatively simple. Since a microSD card with the bootable firmware is pre-installed in the DNP/8331-SD card holder, it is only necessary to provide a 24 VDC supply voltage using the plug-in power supply from the scope of delivery. In total, there are four remote access possibilities ex works ready to use: One command-line Linux user interface via RS232 or Ethernet LAN and only via Ethernet LAN a file transfer interface and one web-based configuration interface (SSV/WebUI).  
+The commissioning of the eDNP/8331-EK is relatively simple. Since a microSD card with the bootable firmware is pre-installed in the DNP/8331-SD card holder, it is only necessary to provide a 24 VDC supply voltage using the plug-in power supply from the scope of delivery. In total, there are four remote access possibilities ex works ready to use: One command-line Linux user interface via RS232 (serial console session) or Ethernet LAN (SSH client session) and only via Ethernet LAN a file transfer interface (SFTP client session) and one web-based configuration interface (webbrowser session with SSV/WebUI).  
 
 ## Serial Console Session
 
