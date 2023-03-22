@@ -4,6 +4,8 @@
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.jpg)
 
+The commissioning of the eDNP/8331-EK is relatively simple. Since a microSD card with the bootable firmware is pre-installed in the DNP/8331-SD card holder, it is only necessary to provide a 24 VDC supply voltage using the plug-in power supply from the scope of delivery. In total, there are four remote access possibilities ex works ready to use: One command-line Linux user interface via RS232 or Ethernet LAN and only via Ethernet LAN a file transfer interface and one web-based configuration interface (SSV/WebUI).  
+
 ## Serial Console Session
 
 Use of the serial console requires an RS232 interface connection between the eDNP/8331-EK board and the user's PC. The setup parameters **115,200 bps, 8N1** apply to this connection. Furthermore, terminal emulator software such as Tera Term or PuTTY is required on the PC (see also https://en.wikipedia.org/wiki/Tera_Term).
