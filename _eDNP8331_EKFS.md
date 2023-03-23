@@ -1,6 +1,8 @@
 # eDNP/8331: First Steps with the Evaluation Kit (EK) 
 
-...
+An eDNP/8331-EK consists of an MB/941 carrier board and various accessory components. These include a 110/230 VAC to 24 VDC EU plug-in power supply, an RS232 interface cable and an Ethernet LAN connection cable. The 40-pin DIL (dual in-line) socket of the MB/941 contains an DNP/8331, the physical version of the eDNP/8331 "virtual" system-on-module (SoM). For the evaluation kit commissioning, only an RS232 and LAN connection to a PC must be established and the 24 VDC supply voltage must be provided.
+
+On the back of the MB/941 there is a label sticker with individual data. These are required for logging into the different user interface and for activating the Over-the-Air (OTA) software update capabilities of the eDNP/8331-EK.  
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-overview.jpg)
 
