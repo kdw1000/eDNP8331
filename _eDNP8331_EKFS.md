@@ -50,7 +50,7 @@ Immediately after the first access, a login web page is displayed. Here, a user 
 
 ## Python "Hello World!"
 
-A Python 3 runtime is included in the Linux operating system of the eDNP/8331. It is therefore recommended to use a PC workstation with Visual Studio Code (VSC or VC Code, see https://en.wikipedia.org/wiki/Visual_Studio_Code) as development computer, edit the Python source code files on the PC, transfer them via SFTP to the eDNP/8331 Linux file system and execute them there.
+A Python 3 runtime is included in the Linux operating system of the eDNP/8331. It is therefore recommended to use a PC workstation with Visual Studio Code (VSC or VS Code, see https://en.wikipedia.org/wiki/Visual_Studio_Code) as development computer, edit the Python source code files on the PC, transfer them via SFTP to the eDNP/8331 Linux file system and execute them there.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-VSC.png)
 
@@ -70,21 +70,21 @@ Visual Studio Code can be extended relatively easily via plug-ins (VSC extension
 
 **(1)** SIM card slot for the miniPCIe slot **(6)**.
 
-**(2)** System IO: 1x I2C, 1x UART (TTL interface with RXD, TXD).
+**(2)** System IO: 1x I2C, 1x UART (TTL interface with RXD, TXD). I2C is suitable as an interface for various sensors, actuators, etc. The two I2C signals can alternatively be used as GPIOs. The UART interface is used for the integration of internal subsystems.
 
 **(3)** DNP/8331 with A/B boot loader, Debian operating system, SSV/WebUI, Python runtime environment (DNP/8331-EVA firmware).
 
 **(4)** 1x 10/100 Mbps Ethernet LAN with 1x status LED (Link, Activity).
 
-**(5)** 1x UART (RS232 interface with TXD, RXD, RTS, CTS).
+**(5)** 1x UART (RS232 interface with TXD, RXD, RTS, CTS). General purpose RS232 serial I/O for connections to other subsystems.
 
 **(6)** 1x miniPCIe slot for wireless modem modules (e.g. 4G, LTE Cat M1 or NB-IoT modem).
 
 **(7)** 2x LED, one of them controllable by software, the other LED indicates the power-on state.
 
-**(8)** 24 VDC power supply, 1x UART (RS485 interface).
+**(8)** 24 VDC power supply, 1x UART (RS485 interface, e. g. for connections to external Modbus RTU devices).
 
-**(9)** Option: Wireless modem module for miniPCIe slot **(6)**. 
+**(9)** Option: Wireless modem module for miniPCIe slot **(6)**. Used to connect the eDNP/8331 to Wireless Wide Area Networks (WWANs). 
 
 **(e)DNP/8331 Hardware Reference:** https://www.ssv-embedded.de/doks/manuals/hr_dnp8331_en.pdf
 
