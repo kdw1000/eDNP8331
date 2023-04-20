@@ -64,7 +64,7 @@ Visual Studio Code can be extended relatively easily via plug-ins (VSC extension
 
 ## Connectors, Slots and Wireless Modem
 
-...
+Due to the different connectors of the MB/941 carrier board, there are numerous possibilities to evaluate own eDNP/8331 IoT application scenarios. The following figure provides an overview and further details on the individual functions.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-explore.jpg)
 
@@ -74,7 +74,7 @@ Visual Studio Code can be extended relatively easily via plug-ins (VSC extension
 
 **(3)** DNP/8331 with A/B boot loader, Debian operating system, SSV/WebUI, Python runtime environment (DNP/8331-EVA firmware).
 
-**(4)** 1x 10/100 Mbps Ethernet LAN with 1x status LED (Link, Activity).
+**(4)** 1x 10/100 Mbps Ethernet LAN with 1x status LED (Link, Activity). Support through an extensive TCP/IP protocol stack. User access to the operating system and individual firmware functions. Connection to external systems (e.g. via Modbus TCP, OPC UA, RFC 1006, MQTT and many others).
 
 **(5)** 1x UART (RS232 interface with TXD, RXD, RTS, CTS). General purpose RS232 serial I/O for connections to other subsystems.
 
