@@ -58,9 +58,11 @@ Visual Studio Code can be extended relatively easily via plug-ins (VSC extension
 
 ## Over-the-Air (OTA) Software Updates
 
-...
+To ensure the necessary cybersecurity in a networked eDNP/8331 application, a continuous over-the-air (OTA) software update process with the highest possible degree of automation is required. To evaluate the technical details and interrelationships, the eDNP/8331-EK offers an easy entry with the help of the SSV Secure Device Update (SDU) infrastructure functions.
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-OTA.jpg)
+
+The central function module for eDNP/8331 OTA software updates is an SDU/OTA server in the Internet. On this server, the software maintainer in charge can place an object signed with the help of a public key infrastructure (PKI), which is automatically downloaded by an eDNP/8331 SDU update agent and, after a successful integrity check, added to the local software installation.
 
 ## Connectors, Slots and Wireless Modem
 
@@ -78,7 +80,7 @@ Due to the different connectors of the MB/941 carrier board, there are numerous 
 
 **(5)** 1x UART (RS232 interface with TXD, RXD, RTS, CTS). General purpose RS232 serial I/O for connections to other subsystems.
 
-**(6)** 1x miniPCIe slot for wireless modem modules (e.g. 4G, LTE Cat M1 or NB-IoT modem).
+**(6)** 1x miniPCIe slot for wireless wide area network (WWAN) modem modules (e.g. 4G, LTE Cat M1, NB-IoT modem, IoT satellite connections).
 
 **(7)** 2x LED, one of them controllable by software, the other LED indicates the power-on state.
 
