@@ -1,6 +1,6 @@
 # eDNP/8331: First Steps with the Evaluation Kit (EK) 
 
-An eDNP/8331-EK consists of an MB/941 carrier board and various accessory components. These include a 110/230 VAC to 24 VDC EU plug-in power supply, an RS232 interface cable and an Ethernet LAN connection cable. The 40-pin DIL (dual in-line) socket of the MB/941 contains an DNP/8331, the physical version of the eDNP/8331 "virtual" system-on-module (SoM). 
+An eDNP/8331-EK consists of an MB/941 carrier board and various accessory components. These include a 110/230 VAC to 24 VDC EU plug-in power supply, an RS232 interface cable and an Ethernet LAN connection cable. The 40-pin DIL (dual in-line) socket of the MB/941 contains a DNP/8331, the physical version of the eDNP/8331 "virtual" system-on-module (SoM). 
 
 For the evaluation kit commissioning, only an RS232 and LAN connection to a PC must be established and the 24 VDC supply voltage must be provided.
 
@@ -16,7 +16,7 @@ Use of the serial console requires an RS232 interface connection between the eDN
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-Serial.png)
 
-To request the eDNP/8331 Linux operating system to issue a login prompt in the terminal emulator window, the PC's Enter key must first pressed one time. Then you can log in with user name and password. The two entries required for this login can be found on a label sticker on the back of the eDNP/8331-EK board.
+To request the eDNP/8331 Linux operating system to issue a login prompt in the terminal emulator window, first press the PC's Enter key once. Then you can log in with user name and password. The two entries required for this login can be found on a label sticker on the back of the eDNP/8331-EK board.
 
 After a successful login with username and password, any eDNP/8331 Debian Linux commands can be executed via command line (Linux CLI) within the serial console session.
 
@@ -32,13 +32,13 @@ After a successful login with username and password, any eDNP/8331 Debian Linux 
 
 ## SFTP Client Session
 
-In addition to a Linux Command Line Interface (Linux CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides an SFTP server to transfer arbitrary directories and files from the PC to the Linux file system via Ethernet LAN only using the factory default IP address **192.168.0.126**. To use this service, an SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
+In addition to a Linux Command Line Interface (Linux CLI) usable via RS232 or LAN interface connection, the eDNP/8331 Linux provides a SFTP server to transfer arbitrary directories and files from the PC to the Linux file system via Ethernet LAN only using the factory default IP address **192.168.0.126**. To use this service, a SFTP client, such as FileZilla, is required on the PC (see https://en.wikipedia.org/wiki/FileZilla).
 
 ![Overview](https://ssv-comm.de/forum/bilder/8331EK-SFTP.png)
 
-An SFTP client session also requires a login first. The two entries required for this can also be found on a label sticker on the back of the eDNP/8331-EK board.
+A SFTP client session also requires a login first. The two entries required for this can also be found on a label sticker on the back of the eDNP/8331-EK board.
 
-After establishing an SFTP connection with a successful login, directories and files can be transferred in both directions, i.e. from the PC to the eDNP/8331 Linux file system and vice versa.
+After establishing a SFTP connection with a successful login, directories and files can be transferred in both directions, i.e. from the PC to the eDNP/8331 Linux file system and vice versa.
 
 ## Webrowser Session (SSV/WebUI)
 
